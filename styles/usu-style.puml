@@ -1,0 +1,232 @@
+' Modified from https://github.com/inthepocket/plantuml-styles'
+' Colors
+!define USU_AGGIE_BLUE #00263A
+!define USU_SILVER #8A8D8F
+!define USU_LIGHT_GRAY #D0D0CE
+!define USU_GRAY_BLUE #7C878E
+!define USU_BLUE_GRAY #333F48
+!define USU_LIGHT_BLUE #0085CA
+!define USU_COPPER #B58150
+!define USU_BLACK #000000
+!define USU_WHITE #FFFFFF
+
+' Settings
+!define USU_DEFAULT_BACKGROUND USU_LIGHT_GRAY
+!define USU_DEFAULT_TEXT USU_AGGIE_BLUE
+
+skinparam backgroundcolor transparent
+
+skinparam defaultFontColor USU_DEFAULT_TEXT
+skinparam defaultFontName Monospaced
+skinparam defaultFontSize 14
+skinparam defaultFontStyle plain
+
+skinparam dpi 90
+
+'Controls how lines are drawn in PlantUML
+'values: ortho, polyline, splines (default)
+skinparam linetype splines
+
+'Distance between elements (vertically, default: 30)
+'skinparam nodesep 30
+
+'Controls the padding surrounding text
+skinparam padding 5
+
+'Distance between elements (horizontally, default: 30)
+'skinparam ranksep 30
+
+'Line below ensures all classes have the same width in UML class diagram
+'skinparam SameClassWidth true
+
+'Uncomment line below to disable shadows
+'skinparam Shadowing false
+
+skinparam activity {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+  DiamondBackgroundColor USU_DEFAULT_BACKGROUND
+  DiamondBorderColor USU_AGGIE_BLUE
+}
+
+skinparam actor {
+  BackgroundColor USU_WHITE
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam agent {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam arrow {
+  Color USU_AGGIE_BLUE
+  FontColor USU_DEFAULT_TEXT
+}
+
+skinparam artifact {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam boundary {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam card {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam class {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+  FontStyle bold
+  HeaderBackgroundColor USU_DEFAULT_BACKGROUND
+}
+
+skinparam cloud {
+  BackgroundColor USU_WHITE
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam collections {
+  BackgroundColor USU_WHITE
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam component {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+  Style uml2
+}
+
+skinparam control {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam database {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam designed {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam domain {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam entity {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam file {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam folder {
+  BackgroundColor USU_WHITE
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam frame {
+  BackgroundColor USU_WHITE
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam interface {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam object {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+  FontStyle bold
+}
+
+skinparam node {
+  BackgroundColor USU_WHITE
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam note {
+  BackgroundColor USU_BLUE_GRAY
+  BorderColor USU_AGGIE_BLUE
+  FontName Univers
+  FontColor USU_WHITE
+}
+
+skinparam package {
+  BackgroundColor USU_WHITE
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam participant {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+  FontStyle bold
+  FontName Univers
+}
+
+skinparam queue {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam rectangle {
+  BackgroundColor USU_WHITE
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam sequence {
+  DividerBackgroundColor USU_WHITE
+  DividerBorderColor USU_AGGIE_BLUE
+  DividerFontStyle bold
+  GroupBackgroundColor USU_DEFAULT_BACKGROUND
+  GroupBodyBackgroundColor USU_WHITE
+  GroupFontStyle bold
+  GroupHeaderFontStyle bold
+  LifeLineBackgroundColor USU_WHITE
+  LifeLineBorderColor USU_AGGIE_BLUE
+  ReferenceBackgroundColor USU_WHITE
+  ReferenceHeaderBackgroundColor USU_DEFAULT_BACKGROUND
+}
+
+skinparam stack {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam state {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+  StartColor USU_AGGIE_BLUE
+  EndColor USU_AGGIE_BLUE
+}
+
+skinparam storage {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+}
+
+skinparam title {
+  FontName Sans
+  FontSize 24
+  FontStyle bold
+  FontColor USU_COPPER
+  BorderColor USU_COPPER
+}
+
+skinparam usecase {
+  BackgroundColor USU_DEFAULT_BACKGROUND
+  BorderColor USU_AGGIE_BLUE
+}
